@@ -1,27 +1,27 @@
-// let numberOfFilms = prompt('How many movies did you watch?', '12');
+"use strict";
 
-// console.log(numberOfFilms);
+const numberOfFilms = +prompt('How many movies did you watch?', '');
+ 
+const personalMovieDB = {
 
-// const box = {
-//     count: numberOfFilms,
-//     movies: {},
-//     actors: {},
-//     genres: [],
-//     privat: false
-// };
-
-// console.log(box);
-
-const answears = [];
-
-answears[0] = prompt('Last movie?', '');
-answears[1] = prompt('Your score', '');
-
-
-let movies = {
-    0: answears[0], 
-    1: [1]
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    private: false
 };
 
+ const a = prompt('Last movie?', ''),
+     b = +prompt('Your score', ''),
+     c = prompt('Last movie?', ''),
+     d = +prompt('Your score?', '');
 
-console.log(answears);
+
+        //  Teper nam nuzhno obratitsya k nashej baze dannyh--personalMovieDB i konkretno k 'movies'
+
+     personalMovieDB.movies[a] = b; /* eto otvet na vopros 'a' i vopros 'b' */
+     personalMovieDB.movies[c] = d; 
+     
+    //  console.log(personalMovieDB);
+
+    
