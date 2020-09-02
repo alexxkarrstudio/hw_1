@@ -19,9 +19,9 @@ const personalMovieDB = {
 
         //  Teper nam nuzhno obratitsya k nashej baze dannyh--personalMovieDB i konkretno k 'movies'
 
-     personalMovieDB.movies[a] = b; /* eto otvet na vopros 'a' i vopros 'b' */
-     personalMovieDB.movies[c] = d; 
+     personalMovieDB.movies[a] = b; /* v [] my pomeshyaem otvet na vopros peremennoj 'a', stavim = i zdes vyvedestsya otvet na vopros 'b'*/
+     personalMovieDB.movies[c] = d; /* pishem put',kuda polozhit otvet: snchala const,a v nej {movies} */
      
-    //  console.log(personalMovieDB);
+     console.log(personalMovieDB);
 
     
